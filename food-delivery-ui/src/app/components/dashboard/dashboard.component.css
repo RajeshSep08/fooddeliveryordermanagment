@@ -1,0 +1,12 @@
+.card {
+  border: none;
+}
+
+.card-title {
+  font-size: 0.95rem;
+}
+
+.display-6 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}

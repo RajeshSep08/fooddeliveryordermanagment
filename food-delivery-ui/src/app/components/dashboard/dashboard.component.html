@@ -1,0 +1,77 @@
+<div class="container py-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+      <h2 class="h3 mb-1">Dashboard</h2>
+      <p class="text-muted mb-0">Overview of current order activity.</p>
+    </div>
+  </div>
+
+  <div *ngIf="isLoading" class="text-center py-5">
+    <div class="spinner-border text-primary" role="status"></div>
+  </div>
+
+  <div *ngIf="!isLoading && summary" class="row g-3">
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Total Orders</h5>
+          <p class="display-6 mb-0">{{ summary.totalOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Placed Orders</h5>
+          <p class="display-6 mb-0">{{ summary.placedOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Preparing Orders</h5>
+          <p class="display-6 mb-0">{{ summary.preparingOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Out For Delivery Orders</h5>
+          <p class="display-6 mb-0">{{ summary.outForDeliveryOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Delivered Orders</h5>
+          <p class="display-6 mb-0">{{ summary.deliveredOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow-sm h-100 border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Cancelled Orders</h5>
+          <p class="display-6 mb-0">{{ summary.cancelledOrders }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <div class="card shadow-sm border-0">
+        <div class="card-body">
+          <h5 class="card-title text-muted">Total Revenue</h5>
+          <p class="display-6 mb-0">${{ summary.totalRevenue }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

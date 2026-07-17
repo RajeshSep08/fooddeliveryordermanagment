@@ -1,0 +1,11 @@
+.card {
+  border: none;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.text-danger {
+  min-height: 1.25rem;
+}
