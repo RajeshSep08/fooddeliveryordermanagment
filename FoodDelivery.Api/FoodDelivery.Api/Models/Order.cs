@@ -55,12 +55,10 @@ public class Order
     /// <summary>
     /// Gets or sets the current status of the order.
     /// </summary>
-    [Required]
     public OrderStatus Status { get; set; }
 
     /// <summary>
     /// Gets or sets the date and time when the order was placed.
     /// </summary>
-    [Required]
     public DateTime OrderDate { get; set; } =  DateTime.UtcNow;
 }

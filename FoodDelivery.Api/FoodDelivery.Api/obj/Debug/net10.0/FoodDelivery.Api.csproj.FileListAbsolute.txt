@@ -1,5 +1,7 @@
 C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\appsettings.json
+C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\package-lock.json
+C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\package.json
 C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\FoodDelivery.Api.staticwebassets.endpoints.json
 C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\FoodDelivery.Api.exe
 C:\Users\RajeshRatakonda\repos\fooddeliveryordermanagment\FoodDelivery.Api\FoodDelivery.Api\bin\Debug\net10.0\FoodDelivery.Api.deps.json
