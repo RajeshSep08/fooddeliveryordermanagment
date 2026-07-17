@@ -37,7 +37,6 @@ public class FoodDeliveryDbContext : DbContext
             entity.Property(o => o.CustomerPhone).IsRequired().HasMaxLength(20);
             entity.Property(o => o.FoodItem).IsRequired().HasMaxLength(100);
             entity.Property(o => o.DeliveryAddress).IsRequired().HasMaxLength(250);
-            entity.Property(o => o.Price).HasColumnType("decimal(18,2)");
         });
 
         modelBuilder.Entity<Order>().HasData(
